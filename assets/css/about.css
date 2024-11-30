@@ -1,0 +1,195 @@
+@media (max-width: 481px) and (max-width:750px) {
+.titlefirst{
+    background-size: 100% 100% !important;
+    height: 500px !important;
+}
+    .abtcont{
+    height: 100%;
+    flex-direction: column;
+}
+.abtcont img{
+    width: 90%;
+    max-width: 740px;
+    margin: auto;
+}
+    .abtcont p{
+    width: 90% !important;
+    max-width: 730px;
+    height: 100% !important;
+    font-size: 22px !important;
+    margin: auto;
+}
+.career h1{
+    margin: auto !important;
+    width: 160px;
+    font-size: 37px !important;
+}
+.career_imgs{
+    flex-direction: column !important;
+}
+.carpet_container{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+.carpet{
+    width: 100% !important;
+max-width: 350px;
+}
+.careertxt{
+    margin: auto !important;
+}
+.careertxt p{
+    width: 100% !important;
+ max-width: 750px;
+ margin: auto !important;
+ margin-bottom: 2% !important;
+ margin-top: 2% !important;
+ font-size: 32px !important;
+}
+.contact_text{
+margin: auto !important;
+margin-bottom: 2% !important;
+}
+.contact_text h1{
+    width: 100%;
+    margin-bottom: 1% !important;
+}
+.contact_text p{
+    width: 100% !important;
+    max-width: 750px;
+    font-size: 32px !important;
+}
+}
+@media (max-width: 300px) and (max-width: 480px){
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    color: white;
+}
+body{
+    background: #121212;
+}
+main{
+    margin-top: 3%;
+}
+.titlefirst{
+    display: flex;
+    height: 700px;
+background-image: url("../img/about.png");
+background-size: 100% 100%;
+justify-content: center;
+}
+.titlefirst h1{
+    margin-top: 15%;
+    margin-bottom: auto;
+    font-size:50px;
+    width: 1200px;
+    text-align: center;
+}
+.abouttext{
+    margin-top: 3%;
+}
+.abtcont{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+
+}
+.abtcont p{
+    font-size: 25px;
+    font-weight: 500;
+    width: 600px;
+    height: 220px;
+    margin-top: 2.7%;
+    margin-bottom: auto;
+}
+.career {
+    margin-top: 3%;
+}
+.career h1{
+    margin-left: 17%;
+    font-size: 40px;
+    font-weight: 500;
+}
+.carpet-container {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    perspective: 1000px;
+}
+.career_imgs{
+    display: flex;
+    gap: 2%;
+    margin-top: 1.5%;
+    justify-content: center;
+}
+.carpet {
+    transform-origin: left;
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: appear 2s forwards;
+}
+
+
+@keyframes appear {
+    from {
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.carpet.animated {
+    animation: rollOut 2s forwards;
+}
+
+@keyframes rollOut {
+    from {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.careertxt{
+    margin-left: 18%;
+    margin-top: 3%;
+}
+.careertxt p{
+    font-size: 36px;
+    font-weight: 600;
+}
+.careertxt p:nth-of-type(1){
+text-align: left;
+width: 480px;
+}
+.careertxt p:nth-of-type(2n){
+    text-align: right;
+    width: 480px;
+    margin-left: 18%;
+    margin-top: 1%;
+    }
+    .contact_text{
+        margin-left: 16%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .contact_text h1{
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    .contact_text p{
+font-size: 35px;
+width: 770px;
+    }
+    .contact_text p:nth-of-type(2n){
+        width: 900px;
+    }

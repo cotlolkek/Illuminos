@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    .my-video-dimensions{
+        max-width: 480px !important;
+        height: 400px !important;
+    }
+}
+@media (min-width: 500px) {
+.my-video-dimensions{
+    max-width: 768px !important;
+    height: 400px !important;
+}
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    color: white;
+}
+header{
+    position:relative !important;
+}
+body{
+    background: #121212;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 7%
+}
+.my-video-dimensions{
+    width: 1400px;
+    height: 700px;
+    border: 1px solid #C3C3C3;;
+}

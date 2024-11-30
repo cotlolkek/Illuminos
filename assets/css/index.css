@@ -1,0 +1,386 @@
+@media (max-width: 481px) and (max-width:750px) {
+    .swipe{
+        display: flex !important;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .swiper-slide {
+        width: 360px; /* Измените ширину слайда на 80% для экранов меньше 768px */
+     margin-left: 6% !important;
+     margin-right: 6% !important;
+    }
+    .poplist{
+        display: none !important;
+    }
+    .movie{
+        margin-top: 13% !important;
+        max-width: 750px;
+        max-height: 470px;
+    }
+    .today_imgs{
+        flex-direction: column !important;
+    }
+    .categories{
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 750px;
+    }
+    .genres{
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 750px;
+    }
+    .subscribebot_content img{
+display: none;
+    }
+    .genresdesk{
+        display: none !important;
+    }
+    .genresmob{
+        display: flex !important;
+    width: 100%;
+    }
+    .subscribe{
+        width: 100%;
+        max-width: 750px;
+        background-size: 100% 100% !important;
+        height: 480px !important;
+    }
+    .subscribe_content{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 750px;
+        margin-top: 14% !important;
+    }
+    .subscribe_content h1{
+        width: 100% !important;
+        max-width: 750px;
+        font-size: 54px !important;
+
+    }
+    .today h2{
+       margin: auto !important;
+       margin-bottom: 3% !important;
+    }
+    .today_imgs a{
+width: 260px;
+margin: auto;
+margin-top: 3% !important;
+margin-bottom: 3% !important;
+    }
+    .subscribe_bottom{
+        height: 390px !important;
+        margin-bottom: 0.5%;
+    }
+    .botleft{
+        width: 350px !important;
+    }
+    .botleft h3{
+        width: 340px !important;
+        text-align: center;
+    }
+    .subscribe_content button{
+        width: 300px !important;
+        height: 50px !important;
+    }
+    .menu-list{
+        background: rgba(0, 0, 0, 0.555) !important;
+    }
+}
+@media (max-width: 300px) and (max-width: 480px){
+    .swiper-slide {
+        width: 360px; /* Измените ширину слайда на 100% для экранов меньше 480px */
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .movie{
+        margin-top: 13% !important;
+        max-width: 480px;
+        max-height: 470px;
+    }
+    .movie_up img{
+        max-width: 280px;
+        margin: auto;
+            }
+    .swipe{
+        display: flex !important;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .poplist{
+        display: none !important;
+    }
+    .today_imgs{
+        flex-direction: column !important;
+    }
+.categories{
+    flex-wrap: wrap;
+}
+.subscribebot_content img{
+    display: none;
+        }
+        .genresdesk{
+            display: none !important;
+        }
+        .genresmob{
+            display: flex !important;
+        }
+        .subscribe{
+            width: 100%;
+            max-width: 480px;
+            background-size: 100% 100% !important;
+            height: 480px !important;
+        }
+        .subscribe_content{
+            width: 100% !important;
+            height: auto !important;
+            max-width: 480px;
+            margin-top: 14% !important;
+        }
+        .subscribe_content h1{
+            width: 100% !important;
+            max-width: 480px;
+            font-size: 54px !important;
+    
+        }
+        .today h2{
+           margin: auto !important;
+           margin-bottom: 3% !important;
+        }
+        .today_imgs a{
+    width: 260px;
+    margin: auto;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+        }
+        .subscribe_bottom{
+            height: 390px !important;
+            margin-bottom: 0.5%;
+        }
+        .botleft{
+            width: 350px !important;
+        }
+        .botleft h3{
+            width: 340px !important;
+            text-align: center;
+        }
+        .subscribe_content button{
+            width: 300px !important;
+            height: 50px !important;
+        }
+        .menu-list{
+            background: rgba(0, 0, 0, 0.555) !important;
+        }
+}
+.swipe{
+    display: none;
+}
+.genresdesk{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.genresmob{
+    display: none;
+}
+.swiper {
+    width: 100% !important;
+    height: auto; /* Высота будет адаптивной */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1%;
+  }
+.swiper-wrapper{
+    width: 100%;
+}
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px !important; /* Установите ширину слайда на 360px */
+  }
+  .swiper-slide img {
+ width: 100%; /* Изображение занимает всю ширину слайда */
+    height: auto; /* Высота автоматически подстраивается */
+    object-fit: cover; /* Сохраняет пропорции изображения */
+  }
+
+.swiper-slide a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    color: white;
+}
+header{
+    background: rgba(0, 0, 0, 0.555) !important;
+}
+body{
+    background: #121212;
+}
+button{
+    background: linear-gradient(to right, #FA00FF, #00D1FF);
+    border-radius: 65px;
+    width: 280px;
+    height: 40px;
+    border: none;
+}
+.subscribe{
+    background: url("../img/sub.png");
+    background-size: 100% 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe_content{
+    width: 1050px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.subscribe_content h1{
+font-size: 64px;
+width: 1040px;
+font-weight: bold;
+text-align: center;
+}
+.subscribe_content span{
+    background-image: linear-gradient(to right, #FF1BD5, #F3F307);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
+.subscribe_content button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    height: 60px;
+    margin-top: 3%;
+    font-size: 25px;
+}
+.today{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.today h2{
+    margin-left: 5%;
+    margin-right: auto;
+}
+.today_imgs{
+    display: flex;
+    justify-content: center;
+    gap:6%;
+    margin-top: 1.5%;
+}
+.today_imgs img{
+width: 260px;
+height: 382px;
+}
+.subscribe_bottom{
+    background:  url("../img/gradient.png");
+    height: 660px;
+}
+.subscribebot_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+.subscribebot_content img{
+    height: 610px;
+    margin-top: 1.5%;
+    margin-bottom: auto;
+}
+.popmovie{
+display:flex;
+flex-direction: column;
+margin-bottom: 3%;
+}
+.popmovie h2{
+margin-top: 2%;
+margin-left: 5%;
+margin-right: auto ;
+}
+.poplist{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 1%;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.categories h2{
+    margin-top: 3%;
+margin-left: 5%;
+margin-right: auto ;
+}
+.genres{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.genre{
+    width: 276px;
+    height: 136px;
+    background: #232020;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+}
+.genre p{
+    margin-top: 16%;
+    margin-bottom: auto;
+    font-size: 34px;
+}
+
+.popser{
+margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+.popser h2{
+    font-size: 25px;
+    margin-top: 2%;
+margin-left: 5%;
+margin-right: auto ;
+}
+.botleft{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+height: 330px;
+display: flex;
+flex-direction: column;
+margin-top: 9%;
+margin-bottom: auto;
+}
+.botleft h3{
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 350px;
+    margin-bottom: 4%;
+    font-weight: normal;
+}
+.botleft button{
+    width: 340px;
+    height: 50px;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
